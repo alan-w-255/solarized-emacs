@@ -1419,8 +1419,8 @@
      `(org-agenda-done ((,class (:foreground ,base01 :slant italic))))
      `(org-archived ((,class (:foreground ,base01 :weight normal))))
      `(org-block ((,class nil)))
-     `(org-block-begin-line ((,class (:inherit org-meta-line :underline t))))
-     `(org-block-end-line ((,class (:inherit org-meta-line :overline t))))
+     `(org-block-begin-line ((,class (:inherit org-meta-line))))
+     `(org-block-end-line ((,class (:inherit org-meta-line))))
      `(org-checkbox ((,class (:background ,base03 :foreground ,base0
                                           :box (:line-width 1 :style released-button)))))
      `(org-code ((,class (:foreground ,base01))))
